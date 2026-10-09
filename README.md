@@ -43,7 +43,7 @@ To view or work on this project locally, all you need is a web browser (e.g., Go
 
 Clone or Download the Repository:
 
-git clone https://github.com/your-username/AMAR-PROJECT.git
+git clone [https://github.com/your-username/AMAR-PROJECT.git](https://github.com/Shadow-X-TECH/AMAR-PROJECT.git)
 
 
 (Or download and extract the ZIP file directly.)
