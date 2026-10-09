@@ -3,21 +3,27 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .navbar{
     display:flex;
     justify-content:space-between;
     padding:20px;
     border-bottom:2px solid #0000FF;
+    top:0;
+    position:sticky;
+    z-index:1;
+    background:white;
 }
 ul{
     display:flex;
     list-style:none;
+   
     gap:60px;
 }
 .navbar ul li a{
     font-size:15px;
 color:black;
-
+ text-decoration: none;
 }
 .navbar ul li a:hover{
     font-size:19px;
@@ -39,6 +45,7 @@ span{
     padding:10px;
     height:90vh;
     gap:20px;
+    border-bottom:2px solid #0000FF;
 }
 .hero h1{
     font-size:40px;
@@ -62,4 +69,101 @@ span{
     color:white;
     font-weight:bold;
     opacity:0.6;
+}
+.heading{
+    color:#0000FF;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-bottom: 3px solid #0000FF;
+}
+.heading:hover{
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+.paragraph{
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    width:450px;
+    height: 370px;
+    color:black;
+    font-weight:bolder;
+    line-height: 30px;
+    text-align: center;
+}
+.about{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px ;
+    gap: 80px;
+      border-bottom: 2px solid #0000FF;
+      height:100vh ;
+}
+.contact{
+      display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px ;
+    gap: 0px;
+      border-bottom: 2px solid #0000FF;
+      height:100vh ;
+}
+.contact h1:hover{
+    font-size: 30px;
+    transition: 0.3s;
+}
+.contact h1{
+    color:#0000FF;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-bottom: 3px solid #0000FF;
+}
+.contact input{
+    background: lightgoldenrodyellow;
+    border-radius:10px;
+    padding:15px;
+    color:#0000FF;
+    opacity: 0.8;
+    border: #0000FF 2px solid;
+}
+.btn button{
+    gap: 0px;
+    background: lightgoldenrodyellow;
+    border-radius:30px;
+    padding:20px 40px;
+    color:white;
+    background:#0000FF;
+    opacity: 0.8;
+    border: none;
+    font-weight: bolder;
+}
+.btn button:hover{
+    gap: 0px;
+    background: lightgoldenrodyellow;
+    border-radius:30px;
+    padding:20px 40px;
+    color:#0000FF;
+    background:none;
+    opacity: 0.8;
+    border: 2px solid #0000FF;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.card{
+    display:flex;
+ gap:20px;
+ padding:100px;
+}
+footer{
+    background:#0000FF;
+    color:white;
+    font-weight:bold;
+    height:30px;
+    text-align:center;
+    padding-top:  16px;
+
 }

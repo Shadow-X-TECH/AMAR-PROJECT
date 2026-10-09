@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Contact</title>     
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contact{
+      display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px ;
+    gap: 0px;
+      border-bottom: 2px solid #0000FF;
+      height:100vh ;
+}
+.contact h1{
+    color:#0000FF;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-bottom: 3px solid #0000FF;
+}
+.contact input{
+    background: lightgoldenrodyellow;
+    border-radius:10px;
+    padding:15px;
+    color:#0000FF;
+    opacity: 0.8;
+    border: #0000FF 2px solid;
+   
+}
+.contact h1:hover{
+    font-size: 30px;
+    transition: 0.3s;
+}
+.btn button{
+    gap: 0px;
+    background: lightgoldenrodyellow;
+    border-radius:30px;
+    padding:20px 40px;
+    color:white;
+    background:#0000FF;
+    opacity: 0.8;
+    border: none;
+    font-weight: bolder;
+}
+.btn button:hover{
+    gap: 0px;
+    background: lightgoldenrodyellow;
+    border-radius:30px;
+    padding:20px 40px;
+    color:#0000FF;
+    background:none;
+    opacity: 0.8;
+    border: 2px solid #0000FF;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.card{
+    display:flex;
+ gap:20px;
+ padding:100px;
+}
+        </style>
+    </head>
+    <body>
+       <section class="contact">
+     <h1>CONTACT US</h1>
+     <div class="card">
+            <input placeholder="Enter Your G-mail" type="text">
+        <input type="text"placeholder="discribe Your Problem.."></div>
+        <div class="btn"><button onclick="window.location.href='sender.html';">SEND ➡</button></div>
+</section>
+    </div>
+    </body>
+</html>
