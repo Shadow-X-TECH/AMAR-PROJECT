@@ -4,7 +4,7 @@ Welcome to my Digital world , This is my OWN FIRST WEBSITE.
 # Features
 1) The buttons are efficient , 
 2) More pages are included,
-3) hyperlinks like "About,contact," are efficient.
+3) hyperlinks  are efficient.
 
 >> UNDERDEVELOPMENT
 
