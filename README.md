@@ -26,4 +26,5 @@ If you want to check it out or run it locally on your machine:
 
 Hope you like checking it out! And your Encouragement is my energy ( Hope @ ).
 
-                                                   ------THANKYOU------
+
+ ------THANKYOU------
