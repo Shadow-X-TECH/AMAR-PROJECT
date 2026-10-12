@@ -25,4 +25,5 @@ If you want to check it out or run it locally on your machine:
 2.Explore the different pages through the navigation links!
 
 Hope you like checking it out! And your Encouragement is my energy ( Hope @ ).
- ------THANKYOU------
+
+                                                   ------THANKYOU------
