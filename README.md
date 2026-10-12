@@ -1,14 +1,28 @@
-# AMAR Project
-Welcome to my Digital world , This is my OWN FIRST WEBSITE.
+# AMAR-PROJECT
 
-# Features
-1) The buttons are efficient , 
-2) More pages are included,
-3) hyperlinks  are efficient.
+Hey! Welcome to my project . This is a web project I built from vscode using HTML, CSS  to create a beautiful, multi-page website .
 
->> UNDERDEVELOPMENT
+I wanted to build something practical, lightweight, and easy to navigate while experimenting with frontend web designing.
 
-# About me
-I am Shadow and I am beginer in this field , I am expecting full support from you.
+# What's Inside?
 
+The project is structured with several connected pages and custom styling:
+
+* index.html : The main homepage is very attractive and rich in css.
+* about.html : An information page detailing what is the website for.
+* contact.html : A contact info of the admin of the website and mail with them .
+* sender.html : A page to show the message reached to the admin .
+* style.css : It is the main Styling css document for the index page . It gives colour,style and easy UI experience to the viewers  .
+
+# Why I Built This
+
+It is my first website also I created this project for sharpen my web development skills, practice  multi-page  websites with CSS styling. (After a long rejections I Think it will approve by my dear reviewers. please support me...)
+
+# How To Open The Source code 
+
+If you want to check it out or run it locally on your machine:
+1. open and run the "index.html" file in your favourite browser .
+2.Explore the different pages through the navigation links!
+
+Hope you like checking it out! And your Encouragement is my energy ( Hope @ ).
  ------THANKYOU------
