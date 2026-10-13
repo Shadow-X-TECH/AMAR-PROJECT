@@ -35,13 +35,64 @@ color:black;
     font-size:19px;
 color:#0000FF;
 opacity:0.6;
-transition:0.3s;
+transition:ease-in-out 0.3s;
 cursor:pointer;
 }
 span{
     color:#0000ff;
     opacity:0.6;
 }
+img{
+    width:300px;
+    height:280px;
+    margin-top: 50px;
+}
+.img{
+    display: flex;
+    background: white;
+}
+.main{
+    padding:100px;
+    height:90vh;
+}
+.signin{
+    background: rgb(240, 235, 235);
+    border-radius: 30px;
+    width:400px;
+    height:400px;
+    line-height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+input{
+    background:none;
+    border: 1px solid #9898f5;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+button{
+    color:#0000FF;
+    background-color: none;
+    border:2px solid #0000FF;
+    padding: 20px 35px;
+    transition:ease-in-out 0.3s;
+    border-radius:25px;
+    font-weight:bold;
+    margin-top:60px;
+}
+button:hover{
+    background-color:#0000FF;
+    color:white;
+    font-weight:bold;
+    opacity:0.6;
+}
+span{
+    color: #0000FF;
+    opacity: 0.6;
+}
+
 </style>
 </head>
 <body>
@@ -54,9 +105,21 @@ span{
        <li><a href="contact.html">CONTACT</a></li>
         <li><a href="signin.html">SIGN IN</a></li>
 </ul>
-<section class="main">
-    
-</section>
 </nav>
+<section class="main">
+    <div class="img">
+        <img src="Wavy_Gen-01_Single-07.jpg">
+    <div class="signin">
+<h1 style="text-decoration:underline;">SIGN <span>IN</span></h1>
+<div>
+    
+</div>
+<input type="text" placeholder="Enter Your E-Mail"/> <br>
+<button>Sign in</button>
+    </div>
+    </div>
+
+</section>
+
 </body>
 </html>
